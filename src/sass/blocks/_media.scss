@@ -1,0 +1,68 @@
+@media (max-width: 992px) {
+    .promo {
+        padding: 13px 3px 60px 0;
+    
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .consultation {
+        .container {
+            h2 {
+                font-size: 34px;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            padding: 0 85px;
+        }
+    }
+    .feed {
+        img {
+            margin-left: 18px;
+        }
+    }
+    .footer {
+       &__info {
+        width: 386px;
+        height: 237px;
+        left: 73%;
+       }
+    }
+}     
+@media (max-width: 768px) {
+    .promo {
+        padding: 13px 6px 60px 0;
+        &__header {
+            line-height: 18px;
+            font-size: 36px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+    }
+    .consultation {
+        .container {
+            padding: 100px 0 92px 14px;
+            h2 {
+                font-size: 31px;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            padding: 0px 56px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 364px;
+            left: 77%;
+        }
+    }
+
+}
